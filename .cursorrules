@@ -1,0 +1,17 @@
+# Contexto do Projeto
+- Next.js 16 (App Router)
+- React 19 (Server Components default)
+- Tailwind CSS v4 (Apenas CSS, sem tailwind.config.ts)
+- shadcn/ui (Radix UI)
+- Usar ícones do @heroicons/react
+
+# Regras de Código
+- Otimize o uso do 'cn' (clsx + tailwind-merge), evite usar \`.join(" ")\`.
+- Utilize componentes funcionais (Function Components).
+- TypeScript estrito `strict: true`, faça a tipagem correta de todas as props, não use `any`.
+- Arquivos de componentes em `*.tsx`.
+
+# Regras Gerais e de Workflow
+- Leia SEMPRE o arquivo `.claude/CLAUDE.md` para instruções estritas de contexto ao iniciar novos diálogos ou tarefas.
+- As respostas e explicações deves ser sempre em pt-BR.
+- Se o código não compilar, não faça _lazy commits_, corrija-o ou peça ajuda ao usuário.
