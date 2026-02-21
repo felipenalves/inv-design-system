@@ -5,6 +5,7 @@ import { ThemeProvider } from '@/components/providers/theme-provider'
 import { AppSidebar } from '@/components/layout/sidebar'
 import { AppHeader } from '@/components/layout/header'
 import { Toaster } from '@/components/ui/sonner'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
 
 const lora = Lora({
@@ -56,6 +57,7 @@ export default function RootLayout({
               </main>
             </div>
 
+          <SpeedInsights />
           <Toaster
             position="bottom-right"
             toastOptions={{
