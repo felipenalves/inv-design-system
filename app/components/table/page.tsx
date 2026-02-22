@@ -30,13 +30,9 @@ const ativos = [
 ]
 
 function StatusBadge({ status }: { status: string }) {
-  if (status === "Pago") {
-    return <Badge className="bg-inv-green/10 text-inv-green border border-inv-green/20 font-mono text-xs">Pago</Badge>
-  }
-  if (status === "Pendente") {
-    return <Badge className="bg-inv-warning/10 text-inv-warning border border-inv-warning/20 font-mono text-xs">Pendente</Badge>
-  }
-  return <Badge className="bg-inv-error/10 text-inv-error border border-inv-error/20 font-mono text-xs">Vencido</Badge>
+  if (status === "Pago") return <Badge variant="success">Pago</Badge>
+  if (status === "Pendente") return <Badge variant="warning">Pendente</Badge>
+  return <Badge variant="error">Vencido</Badge>
 }
 
 export default function TablePage() {
