@@ -573,24 +573,10 @@ When an agent is active:
 ---
 
 _INV Design System Development Guide_
-**Last updated: 2026-02-20**
+**Last updated: 2026-02-21**
 **Framework: Next.js 16, React 19, Tailwind CSS 4**
 
-## Changelog desta sessão (2026-02-20)
-
-| Arquivo | Mudança |
-|---|---|
-| `components/ui/skeleton.tsx` | Fix: `bg-accent` → `bg-muted` (contraste visível) |
-| `components/layout/header.tsx` | **NOVO**: AppHeader fixo h-16 estilo Geist |
-| `components/layout/sidebar.tsx` | **REESCRITO**: aside HTML puro, removido SidebarProvider/Radix |
-| `app/layout.tsx` | Novo grid: header + aside + main sem SidebarProvider |
-| `components/ds/color-scale-grid.tsx` | **NOVO**: grid de chips por família de cor |
-| `components/ds/color-semantic-row.tsx` | **NOVO**: row estilo Geist com swatch círculo |
-| `components/ds/color-scale-row.tsx` | **NOVO**: row alternativa com swatch largo |
-| `components/ds/typography-table.tsx` | **NOVO**: tabela de tokens tipográficos |
-| `components/ds/page-nav.tsx` | **NOVO**: navegação Anterior/Próximo |
-| `app/tokens/page.tsx` | **REESCRITO**: 6 seções de cores + tabela tipografia estilo Geist |
-| `app/content/tom-e-voz/page.tsx` | **NOVO**: página Tom e Voz (princípios, contextos, vocabulário) |
+> Histórico de mudanças em [`CHANGELOG.md`](../CHANGELOG.md)
 
 ---
 
