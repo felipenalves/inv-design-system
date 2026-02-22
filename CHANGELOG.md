@@ -4,7 +4,7 @@ Todas as mudanças notáveis do INV Design System são documentadas aqui.
 
 ---
 
-## [0.2.0] — 2026-02-21
+## [0.2.0] — 2026-02-21 · [EPIC-DS-02.4](docs/stories/EPIC-DS-02.4.story.md)
 
 ### Adicionado
 - **Table** — componente via shadcn/ui com showcase de domínio financeiro (faturas, ativos)
@@ -30,7 +30,7 @@ Todas as mudanças notáveis do INV Design System são documentadas aqui.
 
 ---
 
-## [0.1.0] — 2026-02-20
+## [0.1.0] — 2026-02-20 · [EPIC-DS-02.1](docs/stories/EPIC-DS-02.1.story.md) · [EPIC-DS-02.2](docs/stories/EPIC-DS-02.2.story.md) · [EPIC-DS-02.3](docs/stories/EPIC-DS-02.3.story.md) · [EPIC-DS-03.1](docs/stories/EPIC-DS-03.1.story.md)
 
 ### Adicionado
 - **AppHeader** — fixo h-16 estilo Geist: logo INV + search bar + ThemeToggle
