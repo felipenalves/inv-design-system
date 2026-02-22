@@ -2,8 +2,8 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import { ThemeToggle } from './theme-toggle'
+import { SearchCommand } from './search-command'
 
 export function AppHeader() {
   return (
@@ -33,16 +33,7 @@ export function AppHeader() {
 
       {/* Center — search */}
       <div className="flex flex-1 items-center justify-center px-6">
-        <button
-          className="border-border bg-card text-muted-foreground hover:border-border/80 flex h-8 w-full max-w-[320px] items-center gap-2 rounded-md border px-3 text-xs transition-colors"
-          aria-label="Buscar"
-        >
-          <MagnifyingGlassIcon className="h-3.5 w-3.5 shrink-0" />
-          <span className="flex-1 text-left">Buscar…</span>
-          <kbd className="border-border bg-background rounded border px-1 py-px font-mono text-[10px]">
-            ⌘K
-          </kbd>
-        </button>
+        <SearchCommand />
       </div>
 
       {/* Right — theme + version */}

@@ -15,6 +15,7 @@ const navigation = [
     items: [
       { label: 'Introdução', href: '/' },
       { label: 'Tokens', href: '/tokens' },
+      { label: 'Export', href: '/export' },
       { label: 'Documentação', href: '/docs' },
     ],
   },
@@ -25,6 +26,7 @@ const navigation = [
         label: 'Biblioteca',
         href: '/components',
         children: [
+          { label: 'Typography', href: '/components/typography' },
           { label: 'Logos', href: '/components/logos' },
           { label: 'Alerts & Dialogs', href: '/components/alerts' },
           { label: 'Avatares', href: '/components/avatars' },
@@ -32,10 +34,10 @@ const navigation = [
           { label: 'Toggles & Switches', href: '/components/toggles' },
           { label: 'Loaders', href: '/components/loaders' },
           { label: 'Navegação', href: '/components/navigation' },
+          { label: 'Tables', href: '/components/table' },
         ],
       },
       { label: 'Patterns', href: '/patterns' },
-      { label: 'Export', href: '/export' },
     ],
   },
   {
